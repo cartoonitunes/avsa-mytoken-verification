@@ -4,7 +4,7 @@ Source code recovery for 8 unverified Ethereum contracts deployed by Alex Van de
 
 ## Contracts
 
-All 8 contracts share the same bytecode source family (MyToken ERC-20 token), compiled with Solidity `v0.2.0-nightly.2016.1.13+commit.d2f18c7` (`--optimize`).
+All 8 contracts share the same bytecode source family (MyToken ERC-20 token), compiled with Solidity `v0.2.0-nightly.2016.1.13+commit.d2f18c73` (`--optimize`).
 
 ### 1802B Variant — `src/MyToken_1802c.sol`
 
@@ -42,7 +42,7 @@ State variables declared before all functions; `transferOwnership` in `owned`; f
 ## Compilation
 
 ```bash
-solc v0.2.0-nightly.2016.1.13+commit.d2f18c7 --optimize --bin-runtime src/MyToken_1802c.sol
+solc v0.2.0-nightly.2016.1.13+commit.d2f18c73 --optimize --bin-runtime src/MyToken_1802c.sol
 ```
 
 ## Submitted by
